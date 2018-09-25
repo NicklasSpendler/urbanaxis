@@ -1,5 +1,11 @@
-body{
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+body.forside{
     margin: 0;
+    background-color: #301545;
+    background-image: url("img/background-main.png")
 }
 header.forside{
     display: flex;
@@ -11,6 +17,18 @@ header.forside img{
     margin: 0;
     /*width: 6.750em;
     height: 8.188em;*/
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-bottom: 1.250em;
+    padding: 1.063em 0;
+    background-color: blue;
+}
+section.button{
+    
 }
 header.forside h1{
     text-align: center;
