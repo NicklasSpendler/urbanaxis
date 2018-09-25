@@ -30,13 +30,30 @@ a{
     padding: 1.063em 0;
     background-image: linear-gradient(to right top, #4527a0, #5426a1, #6224a2, #6f22a2, #7b1fa2);
 }
-section.button{
-    
-}
 header.forside h1{
     text-align: center;
 }
 section.forsideicon{
     display: flex;
     justify-content: center;
+}
+
+/*Registrer.html
+---------------*/
+header.registrer{
+    display: flex;
+    justify-content: center;
+}
+header.registrer img{
+    height: 75px;
+    width: 61px;
+}
+header.registrer h2{
+    align-self: center;
+    margin-left: 1em;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+}
+header.registrer{
+    margin-top: 3.125em;
 }
