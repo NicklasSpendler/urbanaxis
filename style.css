@@ -2,8 +2,20 @@ body{
     margin: 0;
 }
 header.forside{
-    margin: 0 25%;
+    display: flex;
+    justify-content: center;
+    margin: 7.125em 0 0 0;
+    flex-direction: column;
 }
 header.forside img{
-    margin: 0 25%;
+    margin: 0;
+    /*width: 6.750em;
+    height: 8.188em;*/
+}
+header.forside h1{
+    text-align: center;
+}
+section.forsideicon{
+    display: flex;
+    justify-content: center;
 }
