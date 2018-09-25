@@ -3,10 +3,16 @@ body {
     padding: 0;
 }
 header {
-    background-color: blueviolet;
+    background-image: linear-gradient(to left bottom, #7b1fa2, #6f22a2, #6224a2, #5426a1, #4527a0);
     height: 8.188em;
 }
+div.wrapper {
+    margin: 0 1em;
+}
 header .top-header {
+    display: flex;
+}
+header .bot-header {
     display: flex;
 }
 
@@ -18,12 +24,12 @@ header a {
     padding: 1.938em 0 0 0.563em;
 }
 header input {
-    height: 3em;
-    width: 21.438em;
-    margin: 0 0.500em 0 0.500em;
+    border: none;
+    width: 100%;
 }
 header label {
-    padding: 1em 1em 1em 1em;
+    background-color: #ffffff;
+    padding: 1em;
 }
 
 
