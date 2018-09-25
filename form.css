@@ -1,3 +1,4 @@
+/*Forside*/
 h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
@@ -43,6 +44,7 @@ section.forsideicon{
 header.registrer{
     display: flex;
     justify-content: center;
+    margin-bottom: 45px;
 }
 header.registrer img{
     height: 75px;
@@ -56,4 +58,18 @@ header.registrer h2{
 }
 header.registrer{
     margin-top: 3.125em;
+}
+form.registrer label{
+    display: block;
+    color: white; 
+    font-size: 0.625em;
+    margin-bottom: 0.313em;
+}
+form.registrer input{
+    background-color: rgb(38, 17, 54,0.8);
+    border: 1px solid #4826A0;
+    color: white;
+    font-size: 0.875em;
+    padding: 15px 15px 15px 20px;
+    display: block;
 }
