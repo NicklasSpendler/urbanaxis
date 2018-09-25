@@ -2,6 +2,9 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
+div.wrapper{
+    margin: 0 1.875em;
+}
 body.forside{
     margin: 0;
     background-color: #301545;
@@ -25,7 +28,7 @@ a{
     text-align: center;
     margin-bottom: 1.250em;
     padding: 1.063em 0;
-    background-color: blue;
+    background-image: linear-gradient(to right top, #4527a0, #5426a1, #6224a2, #6f22a2, #7b1fa2);
 }
 section.button{
     
