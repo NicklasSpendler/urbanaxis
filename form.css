@@ -89,3 +89,7 @@ form.registrer input{
     height: 40px;
     width: 40px;
 }
+form.registrer input.submitbutton{
+    background-image: linear-gradient(to left bottom, #7b1fa2, #6f22a2, #6224a2, #5426a1, #4527a0);
+    padding: 15px 0 15px 0;
+}
