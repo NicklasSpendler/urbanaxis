@@ -23,15 +23,7 @@ header.forside img{
     /*width: 6.750em;
     height: 8.188em;*/
 }
-a{
-    color: white;
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    margin-bottom: 1.250em;
-    padding: 1.063em 0;
-    background-image: linear-gradient(to right top, #4527a0, #5426a1, #6224a2, #6f22a2, #7b1fa2);
-}
+
 header.forside h1{
     text-align: center;
 }
@@ -92,4 +84,9 @@ form.registrer input{
 form.registrer input.submitbutton{
     background-image: linear-gradient(to left bottom, #7b1fa2, #6f22a2, #6224a2, #5426a1, #4527a0);
     padding: 15px 0 15px 0;
+}
+footer p{
+    text-align: center;
+    color: #A199AB;
+    font-size: 0.750rem;
 }
