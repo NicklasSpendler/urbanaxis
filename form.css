@@ -40,3 +40,12 @@ section.forsideicon{
     display: flex;
     justify-content: center;
 }
+.picturecontainer{
+    position: relative;
+}
+.picturecontainer .top{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 1;
+}
