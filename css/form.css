@@ -8,7 +8,7 @@ div.wrapper{
 body.forside{
     margin: 0;
     background-color: #301545;
-    background-image: url("img/background-main.png")
+    background-image: url("../img/background-main.png")
 }
 header.forside{
     display: flex;
