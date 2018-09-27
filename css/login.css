@@ -14,6 +14,7 @@ header{
     justify-content: center;
     margin-top: 7.500em;
     align-content: center;
+    margin-bottom: 2.500em;
 }
 .picturecontainer{
     position: relative;
@@ -52,4 +53,20 @@ input{
     box-sizing: border-box;
     padding-left: 20px;
     margin-bottom: 20px;
+}
+input.submitbutton{
+    background-image: linear-gradient(to left bottom, #7b1fa2, #6f22a2, #6224a2, #5426a1, #4527a0);
+    padding: 15px 0 15px 0;
+    margin-top: 35px;
+}
+p{
+    text-align: center;
+    color: #A199AB;
+    font-size: 0.750rem;
+}
+a{
+    color: #A199AB;
+    text-align: center; 
+    font-size: 0.750rem;
+    display: block;
 }
