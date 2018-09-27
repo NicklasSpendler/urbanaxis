@@ -90,3 +90,11 @@ footer p{
     color: #A199AB;
     font-size: 0.750rem;
 }
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
