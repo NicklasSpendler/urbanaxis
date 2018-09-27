@@ -1,0 +1,92 @@
+/*Forside*/
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+div.wrapper{
+    margin: 0 1.875em;
+}
+
+body.forside{
+    margin: 0;
+    background-color: #301545;
+    background-image: url("../img/background-main.png")
+}
+header.forside{
+    display: flex;
+    justify-content: center;
+    margin: 7.125em 0 0 0;
+    flex-direction: column;
+}
+header.forside img{
+    margin: 0;
+    /*width: 6.750em;
+    height: 8.188em;*/
+}
+
+header.forside h1{
+    text-align: center;
+}
+section.forsideicon{
+    display: flex;
+    justify-content: center;
+}
+
+/*Registrer.html
+---------------*/
+header.registrer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+header.registrer img{
+    height: 75px;
+    width: 61px;
+}
+header.registrer h2{
+    align-self: center;
+    margin-left: 1em;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+}
+header.registrer{
+    margin-top: 3.125em;
+}
+form.registrer label{
+    display: block;
+    color: white; 
+    font-size: 0.625em;
+    margin-bottom: 0.313em;
+}
+form.registrer input{
+    background-color: rgb(38, 17, 54,0.8);
+    border: 1px solid #4826A0;
+    color: white;
+    font-size: 0.875em;
+    padding: 15px 0 15px 0;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.picturecontainer{
+    position: relative;
+}
+.picturecontainer .top{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    height: 40px;
+    width: 40px;
+}
+form.registrer input.submitbutton{
+    background-image: linear-gradient(to left bottom, #7b1fa2, #6f22a2, #6224a2, #5426a1, #4527a0);
+    padding: 15px 0 15px 0;
+}
+footer p{
+    text-align: center;
+    color: #A199AB;
+    font-size: 0.750rem;
+}

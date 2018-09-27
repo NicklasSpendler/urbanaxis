@@ -12,5 +12,44 @@ body{
 header{
     display: flex;
     justify-content: center;
-    margin-bottom: 45px;
+    margin-top: 7.500em;
+    align-content: center;
+}
+.picturecontainer{
+    position: relative;
+}
+.picturecontainer .top{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    height: 40px;
+}
+img.back{
+    width: 61.39px;
+    height: 74.5px;
+}
+h2{
+    font-size: 1em;
+    color: white;
+    align-self: center;
+    margin-left: 15px;
+}
+label{
+    display: block;
+    color: white; 
+    font-size: 0.625em;
+    margin-bottom: 0.313em;
+}
+input{
+    background-color: rgb(38, 17, 54,0.8);
+    border: 1px solid #4826A0;
+    color: white;
+    font-size: 0.875em;
+    padding: 15px 0 15px 0;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
