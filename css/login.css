@@ -1,0 +1,11 @@
+div.wrapper{
+    margin: 0 1.875em;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+body{
+    background-color: #301545;
+    background-image: url("img/background-main.png");
+}
