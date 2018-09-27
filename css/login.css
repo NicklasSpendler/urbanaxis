@@ -9,3 +9,8 @@ body{
     background-color: #301545;
     background-image: url("../img/background-main.png");
 }
+header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
