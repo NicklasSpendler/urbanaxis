@@ -1,0 +1,51 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+div.wrapper{
+    margin: 0 1.875em;
+}
+body.forside{
+    margin: 0;
+    background-color: #301545;
+    background-image: url("../img/background-main.png")
+}
+header.forside{
+    display: flex;
+    justify-content: center;
+    margin: 7.125em 0 0 0;
+    flex-direction: column;
+}
+header.forside img{
+    margin: 0;
+    /*width: 6.750em;
+    height: 8.188em;*/
+}
+a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-bottom: 1.250em;
+    padding: 1.063em 0;
+    background-image: linear-gradient(to right top, #4527a0, #5426a1, #6224a2, #6f22a2, #7b1fa2);
+}
+section.button{
+    
+}
+header.forside h1{
+    text-align: center;
+}
+section.forsideicon{
+    display: flex;
+    justify-content: center;
+}
+.picturecontainer{
+    position: relative;
+}
+.picturecontainer .top{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    z-index: 1;
+}
