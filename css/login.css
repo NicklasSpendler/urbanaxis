@@ -1,0 +1,80 @@
+div.wrapper{
+    margin: 0 1.875em;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+body{
+    background-color: #301545;
+    background-image: url("../img/background-main.png");
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 7.500em;
+    align-content: center;
+    margin-bottom: 2.500em;
+}
+.picturecontainer{
+    position: relative;
+}
+.picturecontainer .top{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    height: 40px;
+}
+img.back{
+    width: 61.39px;
+    height: 74.5px;
+}
+h2{
+    font-size: 1em;
+    color: white;
+    align-self: center;
+    margin-left: 15px;
+}
+label{
+    display: block;
+    color: white; 
+    font-size: 0.625em;
+    margin-bottom: 0.313em;
+}
+input{
+    background-color: rgb(38, 17, 54,0.8);
+    border: 1px solid #4826A0;
+    color: white;
+    font-size: 0.875em;
+    padding: 15px 0 15px 0;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+input.submitbutton{
+    background-image: linear-gradient(to left bottom, #7b1fa2, #6f22a2, #6224a2, #5426a1, #4527a0);
+    padding: 15px 0 15px 0;
+    margin-top: 35px;
+}
+p{
+    text-align: center;
+    color: #A199AB;
+    font-size: 0.750rem;
+}
+a{
+    color: #A199AB;
+    text-align: center; 
+    font-size: 0.750rem;
+    display: block;
+}
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+}
